@@ -1,0 +1,103 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+:root {
+	--pagina-kleur-1: darkblue;
+	--pagina-kleur-2: black;
+	--tekst-kleur: white;
+	--link-kleur: black;
+	--border-kleur: white;
+	--button-color: white;
+	--button-text-color: black;
+	--forum-background: rgba(0, 0, 0, 0.2);
+	--work-link-background-color:white;
+}
+
+body {
+	color: var(--tekst-kleur);
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	background: linear-gradient(var(--pagina-kleur-1), var(--pagina-kleur-2), var(--pagina-kleur-1));
+	min-height: 100vh;
+	padding: 0;
+}
+
+header {
+	margin: 1em;
+	text-align: center;
+}
+
+nav>ul {
+	margin: 1em;
+	justify-content: center;
+	padding: 10px 0px;
+	list-style-type: none;
+	display: flex;
+}
+
+nav>ul>li>a {
+	border-radius: 1ch;
+	margin: 6px;
+	padding: 8px;
+	border: 2px solid var(--border-kleur);
+	background-color: white;
+	opacity: 0.6;
+}
+
+a {
+	color: var(--link-kleur)
+}
+
+h1,
+h2 {
+	font-weight: bold;
+}
+
+main {
+	text-align: center;
+}
+
+p {
+	padding: 1em;
+	display: block;
+}
+
+main>ul{
+	display: flex;
+	list-style-type: none;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+img{
+	width: 40%;
+}
+
+main>ul>li{
+	border: 4px black solid;
+width: 40%;
+padding: 1em;
+margin: 1em;
+	opacity: .7;
+}
+
+main>ul>li>a{
+	color: var(--tekst-kleur);
+}
+
+button {
+	padding: 1em;
+	border-radius: 1ch;
+	border: 2px solid var(--border-kleur);
+	background-color: var(--button-color);
+	margin: auto;
+	font-weight: bold;
+	opacity: 0.6;
+}
+
+
+
+.Current{
+	font-weight: 600;
+}
