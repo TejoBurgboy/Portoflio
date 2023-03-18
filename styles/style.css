@@ -3,6 +3,16 @@
 	margin: 0;
 }
 
+@font-face {
+	font-family: main-font;
+	src: url(./fonts/CircularStd-Bold.otf);
+}
+
+@font-face {
+	font-family: secondary-font;
+	src: url(./fonts/Poppins-Regular.ttf);
+}
+
 :root {
 	--pagina-kleur-1: darkblue;
 	--pagina-kleur-2: black;
@@ -13,11 +23,14 @@
 	--button-text-color: black;
 	--forum-background: rgba(0, 0, 0, 0.2);
 	--work-link-background-color:white;
+
+	--main-font: main-font;
+	--secondary-font: secondary-font;
 }
 
 body {
 	color: var(--tekst-kleur);
-	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-family: var(--secondary-font);
 	background: linear-gradient(var(--pagina-kleur-1), var(--pagina-kleur-2), var(--pagina-kleur-1));
 	min-height: 100vh;
 	padding: 0;
@@ -26,6 +39,10 @@ body {
 header {
 	margin: 1em;
 	text-align: center;
+}
+
+h1{
+	font-family: var(--main-font);
 }
 
 nav>ul {
@@ -46,12 +63,17 @@ nav>ul>li>a {
 }
 
 a {
-	color: var(--link-kleur)
+	color: var(--link-kleur);
+	text-decoration: none;
 }
 
 h1,
 h2 {
 	font-weight: bold;
+}
+
+p{
+	margin: 0em 20em 0em 20em;
 }
 
 main {
@@ -74,17 +96,39 @@ img{
 	width: 40%;
 }
 
+main>ul{
+	text-align: center;
+	display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  margin: 0 5em; 
+  padding: 12px;
+  border-radius: 1ch ;
+  }
+
+
 main>ul>li{
 	border: 4px black solid;
 width: 40%;
 padding: 1em;
 margin: 1em;
 	opacity: .7;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+
 }
 
 main>ul>li>a{
 	color: var(--tekst-kleur);
+
 }
+
+li > a > img{
+	width: 10em;
+	margin-bottom: 10px;
+	display: block;
+  }
 
 button {
 	padding: 1em;
