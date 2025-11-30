@@ -1,0 +1,495 @@
+*,
+html {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    /* display: flex;
+    flex: row; */
+
+}
+
+.row {
+    --bs-gutter-x: 0rem !important;
+}
+
+.logo-box {
+    padding-top: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+
+.logo {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.menu-side {
+    background: -webkit-linear-gradient(0deg, rgba(56, 168, 95, 1) 0%, rgba(67, 120, 80, 1) 100%);
+    padding: 0% 50%;
+    min-height: 100vh;
+}
+
+.Title-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.nav-menu>ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 0 10%;
+}
+
+.nav-menu>ul>li {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: black;
+    font-weight: 600;
+    list-style: none;
+    padding: 7.5px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.nav-menu>ul>li>a:hover {
+    border-bottom: solid 3px;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+.current {
+    border-bottom: solid 3px;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+.main-side {
+    padding-top: 5%;
+
+}
+
+li>a {
+    color: black;
+    font-weight: 400;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+}
+
+h2 {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+}
+
+h3 {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+}
+
+p {
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+}
+
+.inleiding {
+    align-items: center;
+    padding: 2% 20%;
+}
+
+.inleiding>p {
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.alinea {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2% 12%;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.alinea-side-image {
+    max-width: 80%;
+    max-height: 80%;
+    align-self: center;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 5px;
+}
+
+.Opdrachten_alinea_container {
+    margin: 20px;
+
+}
+
+.about-container {
+    margin: 20px;
+}
+
+.alinea-side-image-container {
+    display: flex;
+    justify-content: center;
+}
+
+.oprachten_row {
+    margin-top: 30px !important;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 40px 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+}
+
+.opracht_pursuit {
+    background-image: url(../Images/pursuit_amsterdam_logo.jpeg);
+    background-position: center;
+    color: black;
+    text-decoration: none;
+    max-width: 40vh;
+    min-height: 40vh;
+    border-radius: 5px;
+    box-shadow: 0px 1px 2px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+}
+
+.opracht_scan {
+    background-image: url(../Images/PUBLIC_STAK_SCAN.jpg);
+    background-position: center;
+    color: black;
+    text-decoration: none;
+    max-width: 40vh;
+    min-height: 40vh;
+    border-radius: 5px;
+    box-shadow: 0px 1px 2px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+}
+
+.opracht_gi {
+    background-image: url(../Images/GI.png);
+    background-position: center;
+    color: black;
+    text-decoration: none;
+    max-width: 40vh;
+    min-height: 40vh;
+    border-radius: 5px;
+    box-shadow: 0px 1px 2px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+}
+
+.opracht_IoT {
+    background-image: url(../Images/IoT1.png);
+    background-position: center;
+    color: black;
+    text-decoration: none;
+    max-width: 40vh;
+    min-height: 40vh;
+    border-radius: 5px;
+    box-shadow: 0px 1px 2px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+
+}
+
+.opracht_Songtekst {
+    background-image: url(../Images/songtekst1.png);
+    background-position: center;
+    color: black;
+    text-decoration: none;
+    max-width: 40vh;
+    min-height: 40vh;
+    border-radius: 5px;
+    box-shadow: 0px 1px 2px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+
+}
+
+.opracht_XR {
+    background-image: url(../Images/xr2.png);
+    background-position: center;
+    color: black;
+    text-decoration: none;
+    max-width: 40vh;
+    min-height: 40vh;
+    border-radius: 5px;
+    box-shadow: 0px 1px 2px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+
+}
+
+.opracht_Programeren {
+    background-image: url(../Images/Inleiding_Programeren.png);
+    background-position: top center;
+    color: black;
+    text-decoration: none;
+    max-width: 40vh;
+    min-height: 40vh;
+    border-radius: 5px;
+    box-shadow: 0px 1px 2px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+
+}
+
+.text_overlay {
+    background-color: rgba(255, 255, 255, .8);
+    border-radius: 10px;
+    padding: 15px;
+    margin: 0px 8vh;
+}
+
+.opracht_scan:hover {
+    margin-top: -5px;
+    opacity: .8;
+    box-shadow: 0px 4px 8px black;
+    font-weight: 600;
+
+}
+
+
+.opracht_gi:hover {
+    margin-top: -5px;
+    opacity: .8;
+    box-shadow: 0px 4px 8px black;
+    font-weight: 600;
+
+}
+
+.opracht_pursuit:hover {
+    margin-top: -5px;
+    opacity: .8;
+    box-shadow: 0px 4px 8px black;
+    font-weight: 600;
+
+}
+
+.opracht_IoT:hover {
+    margin-top: -5px;
+    opacity: .8;
+    box-shadow: 0px 4px 8px black;
+    font-weight: 600;
+
+}
+
+.opracht_Programeren:hover {
+    margin-top: -5px;
+    opacity: .8;
+    box-shadow: 0px 4px 8px black;
+    font-weight: 600;
+
+}
+
+.opracht_Songtekst:hover {
+    margin-top: -5px;
+    opacity: .8;
+    box-shadow: 0px 4px 8px black;
+    font-weight: 600;
+
+}
+
+.opracht_XR:hover {
+    margin-top: -5px;
+    opacity: .8;
+    box-shadow: 0px 4px 8px black;
+    font-weight: 600;
+
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Image_header {
+    width: 70%;
+    margin-bottom: 40px;
+}
+
+.Image_header_Pursuit {
+    width: 20%;
+}
+
+.songtekst_header {
+    width: 20%;
+}
+
+p {
+    color: black;
+}
+
+.cv_button-container {
+    margin-top: 10%;
+    display: flex;
+    margin-top: 200px;
+    justify-content: center;
+    margin-bottom: 400px;
+}
+
+.cv_button {
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: "Poppins", sans-serif;
+    padding: 25px;
+    border: 4px solid black;
+    border-radius: 20px;
+    background: -webkit-linear-gradient(0deg, rgba(56, 168, 95, 1) 0%, rgba(67, 120, 80, 1) 100%);
+    box-shadow: 0px 4px 8px black;
+}
+
+.cv_button:hover {
+    margin-top: -5px;
+    opacity: .8;
+}
+
+.reflectie {
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+}
+
+.main-side_footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background: -webkit-linear-gradient(0deg, rgba(67, 120, 80, 1) 0%, rgba(56, 168, 95, 1) 100%);
+    min-height: 20px;
+    padding: 30px;
+}
+
+h5 {
+    font-family: "Poppins", sans-serif;
+    font-size: 26px;
+    text-align: center;
+    color: black;
+}
+
+.mail {
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+}
+
+.mailtitle {
+    padding-right: 15px;
+    font-weight: 600;
+    color: black;
+}
+
+.mailadress {
+    color: black;
+    text-decoration: none;
+}
+
+
+@media only screen and (max-width: 767px) {
+
+
+    .logo-box {
+        display: flex;
+        justify-content: center;
+    }
+
+    .logo {
+        width: 60%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .menu-side {
+        min-height: 100px;
+        padding: 0% 20%;
+
+    }
+
+    .nav-menu>ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .Opdrachten_alinea_container {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .reflectie {
+        margin: 0;
+    }
+
+    .alinea {
+        margin: 0%;
+    }
+
+    .alinea>p {
+        padding-left: 7.5%;
+        padding-right: 7.5%;
+    }
+
+    .opracht_pursuit,
+    .opracht_gi,
+    .opracht_IoT,
+    .opracht_scan,
+    .opracht_Songtekst,
+    .opracht_Programeren,
+    .opracht_XR {
+        max-width: 100%;
+        min-height: 200px;
+        width: 80%;
+
+    }
+
+    .text_overlay {
+        margin: 0 5%;
+        font-size: 14px;
+    }
+
+    .inleiding {
+        padding-left: 7.5%;
+        padding-right: 7.5%;
+    }
+    h1, h2, h3, h4, h5, h6{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}
